@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/login.css" />
+  </head>
+
+  <body>
+    <div class="login">
+      <form class="user-form">
+        <div class="header">登录</div>
+        <div class="container">
+          <input
+            id="loginUserName"
+            name="loginId"
+            type="text"
+            placeholder="请输入用户名"
+          />
+          <p class="err"></p>
+          <span class="left"></span>
+          <span class="right"></span>
+          <span class="top"></span>
+          <span class="bottom"></span>
+        </div>
+        <div class="container1">
+          <input
+            id="loginPwd"
+            name="loginPwd"
+            type="password"
+            placeholder="请输入密码"
+          />
+          <p class="err"></p>
+          <span class="left"></span>
+          <span class="right"></span>
+          <span class="top"></span>
+          <span class="bottom"></span>
+        </div>
+        <button class="btn">登录</button>
+        <a href="./reg.html"> <div class="btn2">注册</div></a>
+      </form>
+    </div>
+  </body>
+  <script src="./js/api.js"></script>
+  <script src="./js/common.js"></script>
+  <script src="./js/user.js"></script>
+  <script src="./js/login.js"></script>
+</html>
