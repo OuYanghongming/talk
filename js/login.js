@@ -27,7 +27,7 @@ form.onsubmit = async function (e) {
   const resp = await API.login(data);
   if (resp.code === 0) {
     alert("登录成功,跳转聊天页面");
-    location.href = "./index2.html";
+    location.href = "./index.html";
   } else {
     alert("登录失败");
     loginPwdDator.input.value = "";

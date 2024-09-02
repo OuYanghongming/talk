@@ -7,3 +7,4 @@ function $$(selector) {
 function $$$(talName) {
   return document.createElement(talName);
 }
+
